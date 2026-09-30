@@ -47,10 +47,10 @@ tasks:
     ref: e949c08c67bdfe3fb981bf4f77477faf26d187e6
     dest: ./resources/bob74_ipl
   
-  - action: download_github
-    src: https://github.com/brouznouf/fivem-mysql-async
-    ref: c5fa317a65acfe2eef453257e19e3b4fde137089
-    dest: ./resources/mysql-async
+   - action: download_github
+    src: https://github.com/overextended/oxmysql
+    ref: v2.9.2
+    dest: ./resources/oxmysql
 
   - action: download_github
     src: https://github.com/AvarianKnight/pma-voice
@@ -62,22 +62,12 @@ tasks:
     ref: 558e14d3eb7eed62e780a30c2867eadb61ffe0ac
     dest: ./resources/rp-radio
 
-  - action: download_github
-    src: https://github.com/thelindat/linden_outlawalert
-    ref: a28b0ab65b1a4a9fed4063a26566cf697c263fc8
-    dest: ./resources/shotspotter
-
-  - action: download_github
+   - action: download_github
     src: https://github.com/Blumlaut/EasyAdmin
     ref: 776ac8f3898182e5c075d533bbd89e92efa017e9
     dest: ./resources/EasyAdmin
 
-  - action: download_github
-    src: https://github.com/thelindat/mdt
-    ref: 0c804de3cd497d70d8ae76bf1699d76d4c9d94fc
-    dest: ./resources/mdt
-
-  - action: download_github
+   - action: download_github
     src: https://github.com/DevTestingPizza/vSync
     ref: 65f0e3cdd5692b619985a7df6297ffca7db41525
     dest: ./tmp/vSync
