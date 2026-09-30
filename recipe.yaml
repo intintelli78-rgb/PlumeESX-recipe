@@ -47,7 +47,7 @@ tasks:
     ref: e949c08c67bdfe3fb981bf4f77477faf26d187e6
     dest: ./resources/bob74_ipl
   
-   - action: download_github
+  - action: download_github
     src: https://github.com/overextended/oxmysql
     ref: v2.9.2
     dest: ./resources/oxmysql
@@ -62,12 +62,12 @@ tasks:
     ref: 558e14d3eb7eed62e780a30c2867eadb61ffe0ac
     dest: ./resources/rp-radio
 
-   - action: download_github
+  - action: download_github
     src: https://github.com/Blumlaut/EasyAdmin
     ref: 776ac8f3898182e5c075d533bbd89e92efa017e9
     dest: ./resources/EasyAdmin
 
-   - action: download_github
+  - action: download_github
     src: https://github.com/DevTestingPizza/vSync
     ref: 65f0e3cdd5692b619985a7df6297ffca7db41525
     dest: ./tmp/vSync
