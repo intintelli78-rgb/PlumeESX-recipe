@@ -150,8 +150,8 @@ tasks:
   - action: replace_string
     mode: all_vars
     file: 
-  - ./resources/loadingscreen/config.js
-  - ./resources/[legacy]/[esx_addons]/esx_multicharacter/server/main.lua
+   - ./resources/loadingscreen/config.js
+   - ./resources/[legacy]/[esx_addons]/esx_multicharacter/server/main.lua
 
   
   ## Cleanup
