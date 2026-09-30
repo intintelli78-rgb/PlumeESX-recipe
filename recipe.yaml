@@ -107,11 +107,6 @@ tasks:
     dest: ./resources/[hud]/cosmo_hud
 
   - action: replace_string
-    file: ./resources/shotspotter/config.lua
-    search: 'Config.Default911 = false'
-    replace: 'Config.Default911 = true'
-
-  - action: replace_string
     file: ./resources/[legacy]/[esx_addons]/esx_status/config.lua
     search: "    Config.Display        = true"
     replace: "    Config.Display        = false"
@@ -155,8 +150,8 @@ tasks:
   - action: replace_string
     mode: all_vars
     file: 
-    - ./resources/loadingscreen/config.js
-    - ./resources/[legacy]/[esx_addons]/esx_multicharacter/server/main.lua
+  - ./resources/loadingscreen/config.js
+  - ./resources/[legacy]/[esx_addons]/esx_multicharacter/server/main.lua
 
   
   ## Cleanup
