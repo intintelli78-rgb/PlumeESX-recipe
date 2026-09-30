@@ -26,8 +26,9 @@ tasks:
   - action: move_path
     src: ./tmp/plume_esx/loadingscreen
     dest: ./resources/loadingscreen
-
+ 
   - action: connect_database
+  
   - action: query_database
     file: ./tmp/plume_esx/plume.sql
 
@@ -149,7 +150,7 @@ tasks:
 
   - action: replace_string
     mode: all_vars
-    file: 
+    file:
    - ./resources/loadingscreen/config.js
    - ./resources/[legacy]/[esx_addons]/esx_multicharacter/server/main.lua
 
