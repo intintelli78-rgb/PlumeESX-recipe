@@ -49,7 +49,7 @@ tasks:
   
   - action: download_github
     src: https://github.com/overextended/oxmysql
-    ref: v2.9.2
+    ref: v2.14.1
     dest: ./resources/oxmysql
 
   - action: download_github
